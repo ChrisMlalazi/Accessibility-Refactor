@@ -116,6 +116,30 @@ header .name{
   border-color: #FFA500;
 }
 
+button {
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid #00ff7f;  
+    transition: transform .5s;
+}
+
+.nav li {
+  border: 1px white solid;
+  margin-left: 5px;
+  border-radius: 10px;
+}
+
+.nav li:hover {
+  background-color: grey;
+}
+
+
+button:hover {
+  background-color: #FFA500;
+  transform: scale(1.05, 1.05);
+}
+
+
 
 .photo{
   display: block;
@@ -132,11 +156,13 @@ header .name{
 }
 
 .buy {
-  color: #00ff7f;
+  color: black;
+  font-size: 1.5em;
+  padding: 10px;
 }
 
 .buy:hover{
-  color: #FFA500;
+  color: red;
 }
 
 .heading{
