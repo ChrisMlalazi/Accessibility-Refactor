@@ -75,12 +75,31 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('../img/concert02_with_text.jpg') no-repeat top center ;
+  background: url('../img/concert02_no_text.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
   height: 350px;
 }
+
+.header2 {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 0 5px 5px 5px;
+  margin-top: 10px;
+ }
+
+ header h1 {
+  color: black;
+  font-size: 3em;
+  text-shadow: 6px 6px 4px #708090;
+ }
+
+ header h2 {
+  color: #4b0082;
+  font-size: 1.5em;
+  font-weight: bold;
+ }
+
 
 /*.tag {
   color: black;
