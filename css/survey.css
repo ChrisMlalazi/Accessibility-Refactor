@@ -19,6 +19,11 @@ form {
 
 }
 
+.button1 {
+
+  font-size: 1em;
+
+}
 
 /* Styles for larger screens */
 @media screen and (min-width: 840px) {

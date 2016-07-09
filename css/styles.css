@@ -279,8 +279,14 @@ a.spotify {
   background-image: url(../img/spotify-32.png);
 }
 
+a.social {
+  opacity: .7;
+}
+
 a.social:hover {
-  opacity: 1;
+  opacity: 2;
+   background-color: grey;
+  border-radius: 50%;
 }
 .clearfix {
   clear: both;
