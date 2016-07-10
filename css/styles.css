@@ -89,40 +89,20 @@ header {
  }
 
  header h1 {
-  color: black;
+  color: white;
   font-size: 3em;
   text-shadow: 6px 6px 4px #708090;
  }
 
  header h2 {
-  color: #4b0082;
+  color: #00ff7f;
   font-size: 1.5em;
   font-weight: bold;
  }
 
-
-/*.tag {
-  color: black;
-  padding: 10px;
-  letter-spacing: 5px;
-}
-*/
 .name{
   font-weight: 300;
 }
-/*
-header .name{
-  font-size: 10em;
-  color: yellow;
-  background-color: yellow;
-}*/
-
-/*.tagline {
-  font-weight: 600;
-  padding: 20px;
-  text-transform: uppercase;
-  color: #781125;
-}*/
 
 .card {
   margin: 30px;
@@ -170,8 +150,6 @@ button:hover {
 .information{
   width: 100%;
   text-align: center;
- /* display: inline-block;
-  position: absolute;*/
 }
 
 .buy {
@@ -279,7 +257,6 @@ footer ul li {
 
 
 .card1 img:hover {
-   /* transform:skewY(1.5deg);*/
    transform: scale(1.05, 1.05);
    border: 1px solid yellow;
 
