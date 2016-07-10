@@ -197,6 +197,49 @@ button:hover {
   color: #87cefa;
 }
 
+fieldset {
+  margin-top: 9px;
+  border: none;
+  
+}
+
+fieldset:hover {
+  border: .1px dotted orange;
+}
+legend {
+  font-size: 1.3em;
+}
+
+input, textarea. select, fieldset {
+transition: all .5s;
+
+}
+ select:focus {
+    background-color: #7fffd4;
+    }
+
+input:focus {
+    background-color: #7fffd4;
+    outline: none;
+
+}
+
+textarea:focus {
+  background-color: #7fffd4;
+  outline: none;
+  
+}
+
+input:hover {
+   
+  border: 2px solid orange;
+
+}
+
+textarea:hover {
+  border: 2px solid orange;
+}
+
 /* Footer styles */
 
 footer {
@@ -221,15 +264,7 @@ footer ul li {
   display: inline-block;
 }
 
-a.social {
-  display: inline-block;
-  margin-left: 5px;
-  width: 30px;
-  height: 30px;
-  background-size: 30px 30px;
-  opacity: .8;
-  transition: all .5s;
-}
+
 
  .card1 img {
     border-radius: 10px;
@@ -280,12 +315,19 @@ a.spotify {
 }
 
 a.social {
-  opacity: .7;
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .8;
+  transition: all .5s;
 }
 
 a.social:hover {
-  opacity: 2;
-   background-color: grey;
+  opacity: 1;
+   background-color: #708090;
   border-radius: 50%;
 }
 .clearfix {

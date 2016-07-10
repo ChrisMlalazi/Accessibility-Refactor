@@ -32,6 +32,8 @@
           <img class="photo" src= "img/concert01.jpg" alt="concert_photo">
           <div class="container">
             <form class="survey">
+             <fieldset>
+             <legend>Your Favourites</legend>
               <p>Who is your favorite band member?:</p>
               <input type="radio" name="res" value="John"> John
               <input type="radio" name="res" value="Hazzard"> Hazzard
@@ -40,21 +42,23 @@
 
               <p>What is your favorite album?:</p>
               <select id="albums" name="select">
-                <option value="1">Party For An Angel</option>
-                <option value="2">A Day Of Old</option>
-                <option value="3">Finding My Shadow</option>
-                <option value="4">Diamond Fireworks</option>
-                <option value="5">Enjoy Your Desire</option>
-                <option value="6">This Is For You</option>
+                <option value="1">A Day Of Old</option>
+                <option value="2">Diamond Fireworks</option>
+                <option value="3">Enjoy Your Desire</option>
+                <option value="4">Finding My Shadow</option>
+                <option value="5">Heroic Forever</option>
+                <option value="6">Midnight Fires</option>
                 <option value="7">Music Of My Life</option>
-                <option value="8">Song For Yesterday</option>
-                <option value="9">Heroic Forever</option>
-                <option value="10">Midnight Fires</option>
-                <option value="11">Street Of The Rider</option>
+                <option value="8">Party For An Angel</option>
+                <option value="9">Song For Yesterday</option>
+                <option value="10">Street Of The Rider</option>
+                <option value="11">This Is For You</option>
               </select>
 
-              <p>What is your favorite song?:</p>
-              <textarea></textarea>
+              
+              <p><label for="song">What is your favorite song?:</label></p>
+              <textarea id="song"></textarea>
+              </fieldset>
             </form>
           </div>
         </div>
@@ -64,11 +68,18 @@
         <div class="flex">
           <img class="photo" src= "img/the_band.jpg" alt="the_band">
             <div class="container">
+
               <form class="newsletter">
-                  <p>Name: <input type ="text" name="textfield"></p>
-                  <p>Email: <input type ="email" name="textfield"></p>
-                  <p>Retype Email: <input type ="email" name="textfield"></p>
+                <fieldset>
+                <legend>Personal Information</legend>
+                  <p><label type="text" for="textfield">Name: </label><input type ="text" id="textfield" name="textfield"></p>
+
+                  <p><label type="text" for="email">Email: </label><input type ="email" id="email" name="email"></p>
+                  
+                  <p><label type="text" for="Retype">Retype Email: </label><input type ="Retype" id="Retype" name="Retype"></p>
+                  
                   <button class="button1" type="submit">Sign Up</button>
+                  </fieldset>
               </form>
             </div>
         </div>
