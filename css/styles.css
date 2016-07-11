@@ -153,13 +153,16 @@ button:hover {
 }
 
 .buy {
-  color: black;
-  font-size: 1.5em;
-  padding: 10px;
+  color: white;
+  border: 1px solid yellow;
+  font-size: 1em;
+  padding: 5px;
+  border-radius: 10%;
 }
 
 .buy:hover{
-  color: red;
+  color: white;
+  background-color: red;
 }
 
 .heading{
@@ -188,7 +191,7 @@ legend {
   font-size: 1.3em;
 }
 
-input, textarea. select, fieldset {
+input, textarea, select, fieldset {
 transition: all .5s;
 
 }
