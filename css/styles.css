@@ -19,6 +19,20 @@ a {
   color: #999;
 }
 
+/**************
+AJAX
+**************/
+
+.ajax {
+  margin: 0 auto;
+  background-color: white;
+  width: 50%;
+}
+
+.ajax p {
+  color: black;
+}
+
 a:hover {
   color: #999;
 }
